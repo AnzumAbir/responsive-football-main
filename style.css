@@ -150,4 +150,79 @@ width: 100%;
     font-size: 18px;
     margin-top: 20px;
 }
+/*media queries*/
+@media only screen and (max-width: 360px) {
+    .container{
+        width: 100%;
+    }
+    .container-two{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .players{grid-template-columns: repeat(1, 1fr);}
+    
+    .section-title{
+        color: white;
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+        margin-left: 16px;
+        margin-top: 112px;
+        /* margin-right: 799px; */
+        /* margin-bottom: 240px; */
+        position: absolute;
+    }
+    .banner-image img{
+        width: 329px;
+        height: 260px;
+        margin-left: 15px;
+        margin-top: 50px;
+        /* margin-right: 140.99px; */
+        /* margin-bottom: 86px; */
+        position: absolute;
+    }
+    button{
+        margin-left: 19px;
+        margin-top: 280px;
+        /* margin-right: 419px; */
+        /* margin-bottom: 169px; */
+        position: absolute;
+        border: 0px;
+        cursor: pointer;}
 
+    .container{grid-template-columns: repeat(1, 1fr);}
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 747px;
+}
+.playerstwo{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 24px;
+}
+.playersthree{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 24px;
+}
+.playersfour{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 24px;
+}
+.photo{
+    height: 50px;
+    width: 275px;
+}
